@@ -1,6 +1,15 @@
 def add(a, b):
 	return (a + b)
 
+def subtract(a, b):
+	return (a - b)
+
+def multiply(a, b):
+	return (a * b)
+
+def divide(a, b):
+	return (a / b)
+
 
 print('\nWelcome to the Unit Testing Activity!')
 
@@ -13,7 +22,7 @@ difference = subtract(a, b)
 product = multiply(a, b)
 quotient = divide(a, b)
 
-print("sum: ", sum)
+print("\nsum: ", sum)
 print("difference: ", difference)
 print("product: ", product)
 print("quotient: ", quotient)
